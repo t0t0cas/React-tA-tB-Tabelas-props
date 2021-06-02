@@ -1,4 +1,4 @@
-//Tabela.js
+//Tabela2.js
 //********************************
 
 import { render } from '@testing-library/react'
@@ -41,7 +41,7 @@ const CorpoTabela = () => {
 class Tabela2 extends React.Component {
     render() {
         return (
-            <table className="table table-hover">
+            <table className="table table-hover table-bordered">
                 <CabecalhoTabela />
                 <CorpoTabela />
             </table>
